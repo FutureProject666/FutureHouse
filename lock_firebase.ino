@@ -16,10 +16,11 @@ int i = 1;
 String last_command;
 String last_door;
 String last_app;
-const char* ssid      = "2019 TCA_CHT";
-const char* password  = "20192019";
-#define FIREBASE_HOST "https://smart-house-622bd.firebaseio.com/"
-#define FIREBASE_AUTH "GOaVTdNwC2Pgos7nbYQ30niW68mbnl5QBv5RsHOX"
+const char* ssid      = "FutureHouse";
+const char* password  = "nlhs7626";
+#define FIREBASE_HOST "https://futurehouse-7626.firebaseio.com/"
+#define FIREBASE_AUTH "gSN7Uu3uxmCEUrlZVINHIezEsVdM996Ua6ugNzW2"
+
 String command;
 String path = "/house";
 FirebaseData firebaseData;
